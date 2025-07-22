@@ -13,7 +13,7 @@
 }
 
 
-/* General Styles */
+/* ------------ Selectors --------------------------------------------------------------- */
 
 
 body {
@@ -79,8 +79,22 @@ footer {
 
 }
 
+/* Navbar styles with dropdown toggle */
+nav {
 
-/* ID's rules */
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: none;
+
+
+}
+
+
+/* ------------ ID Selectors --------------------------------------------------------------- */
 
 
 #menu {
@@ -100,7 +114,7 @@ footer {
 
 
 
-/* Classes */
+/* ------------ Class Selectors --------------------------------------------------------------- */
 
 
 .active {
