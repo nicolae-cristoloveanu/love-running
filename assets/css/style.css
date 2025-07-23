@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
 
 
+
 * {
 
     margin: 0;
@@ -146,5 +147,44 @@ nav {
 
     font-size: 2rem;
 
+
+}
+
+
+/* Media query: tablets and larger (768px and up) */
+
+@media screen and (min-width: 768px) {
+    
+/* Header */
+
+nav {
+
+    display: block;
+    position: relative;
+    box-shadow: none;
+    width: fit-content;
+    padding-right: 1rem;
+
+
+}
+
+#menu {
+
+    display: flex;
+
+}
+
+#menu > li {
+
+    padding-left: 1rem;
+
+}
+
+.nav-toggle-label {
+
+    display: none;
+    /* Hide the nav toggle label on larger screens */
+
+}
 
 }
