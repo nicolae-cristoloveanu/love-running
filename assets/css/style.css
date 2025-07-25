@@ -55,7 +55,9 @@ header a {
     color: inherit
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
 
     font-family: "Oswald", sans-serif;
     text-transform: uppercase;
@@ -109,11 +111,11 @@ nav {
 
 #hero {
 
-height: 600px;
-width: 100%;
-background: url("../images/hero-image.webp") no-repeat center center/cover;
-background-color: lightgreen;
-position: relative;
+    height: 600px;
+    width: 100%;
+    background: url("../images/hero-image.webp") no-repeat center center/cover;
+    background-color: lightgreen;
+    position: relative;
 
 }
 
@@ -128,10 +130,11 @@ position: relative;
     min-height: 200px;
     padding-top: 40px;
 
-    
+
 }
 
-#cover-text > h2, #cover-text > h3 {
+#cover-text>h2,
+#cover-text>h3 {
 
     color: #ffffff;
 
@@ -171,41 +174,39 @@ position: relative;
 #reasons {
 
     width: 90%;
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: 20px auto;
+
 
 }
 
 #reasons h2 {
 
-
-    font-size: 280%;
-
-}
-
-#benefits {
-
-    margin: 20px;
-
-
-}
-
-#benefits-physical {
-
-    line-height: 20px;
     margin-bottom: 20px;
-
+    font-size: 280%;
+    text-align: center;
 
 }
 
+#reasons i {}
+
+#benefits p {
+    padding: 0 20px;
+}
+
+#benefits hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+
+#benefits-physical,
 #benefits-mental {
 
     line-height: 20px;
     margin-bottom: 20px;
 
-
 }
+
+
 
 
 
@@ -236,105 +237,105 @@ position: relative;
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
-    
 
-#menu li a:hover {
 
-    border-bottom: 1px solid #3a3a3a;
+    #menu li a:hover {
 
-}
+        border-bottom: 1px solid #3a3a3a;
+
+    }
 
 }
 
 @media screen and (min-width: 768px) {
-    
-/* Header */
 
-nav {
+    /* Header */
 
-    display: block;
-    position: relative;
-    box-shadow: none;
-    width: fit-content;
-    padding-right: 1rem;
+    nav {
 
-
-}
-
-#menu {
-
-    display: flex;
-
-}
-
-#menu > li {
-
-    padding-left: 1rem;
-
-}
-
-.nav-toggle-label {
-
-    display: none;
-    /* Hide the nav toggle label on larger screens */
-
-}
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
 
 
+    }
+
+    #menu {
+
+        display: flex;
+
+    }
+
+    #menu>li {
+
+        padding-left: 1rem;
+
+    }
+
+    .nav-toggle-label {
+
+        display: none;
+        /* Hide the nav toggle label on larger screens */
+
+    }
 
 
-#logo {
 
 
-    font-size: 280%;
-    line-height: 75px;
-    margin: 0 0.5rem;
-
-}
-
-#social-networks {
-
-    text-align: center;
-    padding: 20px 0;
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
+    #logo {
 
 
-}
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
 
+    }
 
-#social-networks i {
+    #social-networks {
 
-    font-size: 150%;
-    padding: 5%;
-    color: #3a3a3a;
-
-
-}
-
-
-/* Main content */
-
-
-main {
-
-
-    /* Push main content down to accomodate larger header */
-    margin-top: 79px;
-
-    /* Hero */
-
-    #cover-text {
-
-        width: 300px;
-        right: 50px;
+        text-align: center;
+        padding: 20px 0;
+        display: flex;
+        justify-content: space-evenly;
+        list-style-type: none;
 
 
     }
 
 
-}
+    #social-networks i {
+
+        font-size: 150%;
+        padding: 5%;
+        color: #3a3a3a;
+
+
+    }
+
+
+    /* Main content */
+
+
+    main {
+
+
+        /* Push main content down to accomodate larger header */
+        margin-top: 79px;
+
+        /* Hero */
+
+        #cover-text {
+
+            width: 300px;
+            right: 50px;
+
+
+        }
+
+
+    }
 
 
 }
