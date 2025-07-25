@@ -55,7 +55,7 @@ header a {
     color: inherit
 }
 
-h1 {
+h1, h2, h3 {
 
     font-family: "Oswald", sans-serif;
     text-transform: uppercase;
@@ -113,8 +113,31 @@ height: 600px;
 width: 100%;
 background: url("../images/hero-image.webp") no-repeat center center/cover;
 background-color: lightgreen;
+position: relative;
 
 }
+
+
+#cover-text {
+
+    background-color: rgba(241, 109, 107, .7);
+    font-size: 130%;
+    position: absolute;
+    bottom: 30px;
+    width: 80%;
+    min-height: 200px;
+    padding-top: 40px;
+
+    
+}
+
+#cover-text > h2, #cover-text > h3 {
+
+    color: #ffffff;
+
+
+}
+
 
 #menu {
 
@@ -166,6 +189,21 @@ background-color: lightgreen;
 
 
 /* Media query: tablets and larger (768px and up) */
+
+
+
+
+/* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    
+
+#menu li a:hover {
+
+    border-bottom: 1px solid #3a3a3a;
+
+}
+
+}
 
 @media screen and (min-width: 768px) {
     
@@ -244,22 +282,18 @@ main {
     /* Push main content down to accomodate larger header */
     margin-top: 79px;
 
+    /* Hero */
+
+    #cover-text {
+
+        width: 300px;
+        right: 50px;
+
+
+    }
 
 
 }
 
-
-}
-
-
-/* Large devices (laptops and desktops, 992px and up) */
-@media screen and (min-width: 992px) {
-    
-
-#menu li a:hover {
-
-    border-bottom: 1px solid #3a3a3a;
-
-}
 
 }
