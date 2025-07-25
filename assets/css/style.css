@@ -68,14 +68,16 @@ h1 {
 /* Main */
 main {
 
-    background-color: lightblue;
+    /* background-color: lightblue; */
 
     /* Make main element take up any surplus space to push footer down*/
     flex: 1 0 auto;
     margin-top: 47px;
 
 
+
 }
+
 
 /* Footer */
 /* footer {
@@ -85,6 +87,9 @@ main {
 } */
 
 /* Navbar styles with dropdown toggle */
+
+
+
 nav {
 
     position: absolute;
@@ -101,6 +106,15 @@ nav {
 
 /* ------------ ID Selectors --------------------------------------------------------------- */
 
+
+#hero {
+
+height: 600px;
+width: 100%;
+background: url("../images/hero-image.webp") no-repeat center center/cover;
+background-color: lightgreen;
+
+}
 
 #menu {
 
