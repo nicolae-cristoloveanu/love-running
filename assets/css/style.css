@@ -113,11 +113,32 @@ nav {
 
     height: 600px;
     width: 100%;
-    background: url("../images/hero-image.webp") no-repeat center center/cover;
+    background: url("../images/hero-image.webp") no-repeat center center / cover;
     background-color: lightgreen;
     position: relative;
 
 }
+
+#circle-cover-bg {
+
+    background: url("../images/reasons-image.webp") no-repeat top center / cover;
+    height:  90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+
+}
+
+#benefits-image {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
 
 
 #cover-text {
