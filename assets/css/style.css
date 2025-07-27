@@ -68,6 +68,8 @@ h3 {
 }
 
 /* Main */
+
+
 main {
 
     /* background-color: lightblue; */
@@ -81,12 +83,6 @@ main {
 }
 
 
-/* Footer */
-/* footer {
-
-    background-color: orange;
-
-} */
 
 /* Navbar styles with dropdown toggle */
 
@@ -138,6 +134,37 @@ nav {
     justify-content: center;
 
 }
+
+
+/* Meetup Times Section */
+
+#times {
+
+    background: url("../images/dublin-city.webp") no-repeat center / cover;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#times div {
+
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, .6);
+    padding: 15px;
+    text-align: center;
+    flex-basis: 200px;
+    flex-grow: 1;
+    border: 2px solid #fafafa;
+}
+
+#times h3 {
+
+    color: #fafafa;
+
+
+}
+
+
 
 
 
